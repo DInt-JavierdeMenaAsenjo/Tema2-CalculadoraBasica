@@ -12,8 +12,8 @@
         <TextBlock HorizontalAlignment="Left" Margin="94,213,0,0" TextWrapping="Wrap" Text="Operador" VerticalAlignment="Top" FontSize="16"/>
         <TextBlock HorizontalAlignment="Left" Margin="94,163,0,0" TextWrapping="Wrap" Text="Operando 2" VerticalAlignment="Top" FontSize="16"/>
         <TextBlock HorizontalAlignment="Left" Margin="94,263,0,0" TextWrapping="Wrap" Text="Resultado" VerticalAlignment="Top" FontSize="16"/>
-        <Button x:Name="calcular_Button" Content="Calcular" Margin="539,87,137,290" IsEnabled="False" Click="calcular_Button_Click" />
-        <Button x:Name="limpiar_Button" Content="Limpiar" Margin="548,146,146,246" Click="limpiar_Button_Click"  />
+        <Button x:Name="calcular_Button" Content="Calcular" Margin="539,87,137,290" IsEnabled="False" Click="calcular_Button_Click" IsDefault="True" />
+        <Button x:Name="limpiar_Button" Content="Limpiar" Margin="548,146,146,246" Click="limpiar_Button_Click" IsCancel="True"  />
         <TextBox x:Name="operando1_TextBox" HorizontalAlignment="Left" Height="23" Margin="215,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text=""/>
         <TextBox x:Name="operando2_TextBox" HorizontalAlignment="Left" Height="23" Margin="215,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text=""/>
         <TextBox x:Name="operador_TextBox" HorizontalAlignment="Left" Height="23" Margin="215,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="" TextChanged="TextBox_TextChanged"/>

@@ -69,10 +69,10 @@ namespace Tema2_CalculadoraBasica
 
         private void limpiar_Button_Click(object sender, RoutedEventArgs e)
         {
-            operador_TextBox.Text = "";
-            operando1_TextBox.Text = "";
-            operando2_TextBox.Text = "";
-            resultado_TextBox.Text = "";
+            operador_TextBox.Clear();
+            operando1_TextBox.Clear();
+            operando2_TextBox.Clear();
+            resultado_TextBox.Clear();
         }
     }
 }
